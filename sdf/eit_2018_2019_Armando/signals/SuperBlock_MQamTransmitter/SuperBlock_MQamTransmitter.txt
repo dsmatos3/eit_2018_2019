@@ -1,0 +1,1133 @@
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=512
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=255
+MQamMapper|S2_MQamMapperOut_2|space=255
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=257
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 10 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=193
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 24 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=257
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=193
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 24 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=70
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=319
+MQamMapper|S2_MQamMapperOut_2|space=319
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=284
+MQamMapper|S2_MQamMapperOut_2|space=284
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 27 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 21 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:21
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=128
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=348
+MQamMapper|S2_MQamMapperOut_2|space=348
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=284
+MQamMapper|S2_MQamMapperOut_2|space=284
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 24 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 22 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=128
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=348
+MQamMapper|S2_MQamMapperOut_2|space=348
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=284
+MQamMapper|S2_MQamMapperOut_2|space=284
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 23 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 21 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:22
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=128
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=348
+MQamMapper|S2_MQamMapperOut_2|space=348
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=284
+MQamMapper|S2_MQamMapperOut_2|space=284
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 20 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 20 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=34
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=348
+MQamMapper|S2_MQamMapperOut_2|space=348
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=331
+MQamMapper|S2_MQamMapperOut_2|space=331
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=181
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=117
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 26 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=181
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=117
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 32 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:23
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=395
+MQamMapper|S2_MQamMapperOut_2|space=395
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=395
+MQamMapper|S2_MQamMapperOut_2|space=395
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=117
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=53
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 43 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=117
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 11 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=53
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 32 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 9 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=459
+MQamMapper|S2_MQamMapperOut_2|space=459
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=459
+MQamMapper|S2_MQamMapperOut_2|space=459
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=53
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=424
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 32 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=53
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=424
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 21 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:24
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=424
+IqModulator|S6_PulseShaperOut_2|ready=424
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=88
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=88
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=512
+MQamMapper|S2_MQamMapperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+Block start time: 2019-03-21 13:51:25
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+
+

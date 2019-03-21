@@ -1,0 +1,10 @@
+//----------BPSK PARAMETERS--------------
+//Changes the value of parameter pLength
+pLength:5
+//Is able to change the value of different types of parameters
+//Of type int
+numberOfBitsGenerated:1e3
+//Of type double
+bitPeriod:20e-12
+//Of type bool
+shotNoise:false

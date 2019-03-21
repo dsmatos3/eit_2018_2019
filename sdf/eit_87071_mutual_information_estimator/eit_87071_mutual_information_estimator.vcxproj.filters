@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\sink_20180118.cpp" />
+    <ClCompile Include="eit_87071_mutual_information_estimator_sdf.cpp" />
+    <ClCompile Include="..\..\lib\add_20180620.cpp" />
+    <ClCompile Include="..\..\lib\netxpto_20180418.cpp" />
+    <ClCompile Include="..\..\lib\mutual_information_estimator_20180723.cpp" />
+    <ClCompile Include="..\..\lib\binary_source_20180723.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\add_20180620.h" />
+    <ClInclude Include="..\..\include\sink_20180118.h" />
+    <ClInclude Include="..\..\include\netxpto_20180418.h" />
+    <ClInclude Include="..\..\include\mutual_information_estimator_20180723.h" />
+    <ClInclude Include="..\..\include\binary_source_20180723.h" />
+  </ItemGroup>
+</Project>
